@@ -1,0 +1,168 @@
+---
+title: "Learnings from Amazon, posit::conf(2023), and the CLIHC and SJDM Conferences"
+subtitle: DDMLab November Lab Meeting
+author: Erin Bugbee
+date: "November 30, 2023"
+date-format: long
+format: 
+  revealjs
+editor: visual
+toc: true
+toc-depth: 1
+---
+
+# Interning as an Applied Scientist at Amazon
+
+## Machine Learning University (MLU)
+
+::: {.callout-note appearance="simple" icon="false"}
+Teach machine learning theory and practice by making ML education accessible. MLU provides anybody, anywhere, at any time access to the same machine learning courses used to train Amazon's own developers on machine learning.
+:::
+
+![](images/MLU%20Website.png){fig-align="center" width="6in"}
+
+## Content
+
+-   Internal instructor-led courses, workshops, and ML Challenges
+
+-   External YouTube courses with GitHub materials and MLU-Explain Articles
+
+-   Educator Enablement Program
+
+    -   Free program for helping community colleges, Minority-Serving Institutions (MSIs), and Historically Black Colleges and Universities (HBCUs) teach AI/ML
+
+## MLU-Explain Articles
+
+-   Development Tools
+
+    -   Svelte
+
+        -   Open-source framework to create web applications
+
+        -   .svelte files for components
+
+            -   Includes Javascript, HTML, CSS for that component
+
+        -   Compiles components, converts into efficient Javascript to create the web application
+
+    -   D3.js
+
+        -   Javascript library for manipulating and visualizing data in the web browser
+
+-   GitHub Repository: [github.com/aws-samples/aws-mlu-explain/](github.com/aws-samples/aws-mlu-explain/)
+
+## Logistic Regression
+
+![](images/logistic-regression.mov){fig-align="center"}
+
+Link: <https://mlu-explain.github.io/logistic-regression/>
+
+## Reinforcement Learning
+
+![](images/reinforcement-learning.mp4){fig-align="center"}
+
+Link: <https://mlu-explain.github.io/reinforcement-learning/>
+
+## Teaching
+
+-   Taught over 500 Amazon employees
+
+    -   Day One Machine Learning
+
+    -   Tabular Machine Learning
+
+    -   Exploring Fairness in Large Language Models (which I developed)
+
+## Course Development
+
+-   Slides and Jupyter notebooks accessed through Amazon Sagemaker
+
+::: columns
+::: {.column width="50%"}
+![](images/blurb.png){width="600"}
+:::
+
+::: {.column width="50%"}
+![](images/enroll.png){width="600"}
+:::
+:::
+
+## Sources of Bias and Bias Mitigation
+
+![](images/bias.png)
+
+-   For example, the world is biased because people are biased from their limited cognitive capacity --\> heuristics and biases
+
+-   Techniques to mitigate bias at each phase in the ML lifecycle (pre-processing, model training, post-processing, post-deployment, full modeling process)
+
+# posit::conf(2023) { background-image="images/posit.jpeg" background-opacity=0.5}
+
+## Posit (Formerly RStudio)
+
+-   The open source data science company
+
+-   Open source products
+
+    -   RStudio IDE
+
+    -   Shiny
+
+    -   Quarto
+
+## Annual Conference
+
+-   Formerly rstudio::conf, now [posit::conf](https://posit.co/conference/)
+
+    -   Two days of [workshops](https://github.com/posit-conf-2023), two days of keynotes and talks
+
+::: columns
+::: {.column width="50%"}
+![](images/234C3CD3-5836-4159-9523-472D114253A8_1_105_c.jpeg){width="350"}
+:::
+
+::: {.column width="50%"}
+![](images/C95E7736-4E26-4F10-A96A-8829BA8BA325_1_105_c.jpeg)
+:::
+:::
+
+## Quarto
+
+[quarto.org](quarto)
+
+-   Used to create these slides \[Demo\]
+
+## Shiny for R/Python
+
+## Resources
+
+-   [Cheatsheets](https://posit.co/resources/cheatsheets/)
+
+# Latin American Conference on Human-Computer Interaction (CLIHC) 2023
+
+## SpeedyIBL Workshop
+
+-   Outline of Workshop
+
+    -   Introduction to SpeedyIBL
+
+    -   IBL Model of the Binary Choice Task
+
+    -   IBL Model of the Iowa Gambling Task
+
+-   Materials and Google Colab Notebooks: <https://github.com/DDM-Lab/2023CLIHC-SpeedyIBL-Workshop>
+
+-   Slides: <https://erinbugbee.quarto.pub/applications-of-instance-based-learning-theory-using-the-speedyibl-library-to-construct-computational-models/#/title-slide>
+
+# Society of Judgment and Decision Making (SJDM) 2023
+
+## Algorithms
+
+-   Algorithm Aversion
+
+    -   
+
+## Wisdom of Crowds
+
+## Choice Overload
+
+## What's Next?
